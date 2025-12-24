@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  containers:
+    - name: myapp
+      image: dockerayush039/myfirstimage
