@@ -29,7 +29,7 @@ Project Overview
     Registry:    Docker Hub
 
     # Clone the project to your local machine
-    (https://github.com/ayush039-cmyk/Containerized-Web-application-deployed-using-Kubernetes.git)
+    ( https://github.com/ayush039-cmyk/Containerized-Web-application-deployed-using-Kubernetes.git )
 
 # Pull Docker Image from DockerHub
 docker run dockerayus039/myfirstimage
@@ -40,18 +40,17 @@ docker build -t yourusername/amazon-clone:latest .
 
 # Steps for Minikube deployment
 minikube start --driver=virtualbox (or docker if you prefer)
-// To pod
+// To Deploy pod: 
 kubectl create -f pod-definition.yml
 
-//To Run ReplicaSet
+//To Run ReplicaSet: 
 kubectl create -f replicaset-definition.yml
 
-//To Deploy
+//To Deploy: 
 kubectl create -f deployment-definition.yml
 
-//To Start service
+//To Start service: 
 kubectl create -f service-definition.yml
 
-//To Check IP of the running containter
+//To Check IP of the running containter:
 minikube service myapp --url
-
