@@ -29,7 +29,7 @@ Project Overview
     Registry:    Docker Hub
 
     # Clone the project to your local machine
-    git clone https://github.com/yourusername/amazon-clone-k8s.git
+    (https://github.com/ayush039-cmyk/Containerized-Web-application-deployed-using-Kubernetes.git)
 
 # Pull Docker Image from DockerHub
 docker run dockerayus039/myfirstimage
