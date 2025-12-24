@@ -1,2 +1,10 @@
 # Containerized-Web-application-deployed-using-Kubernetes
-This is an Amazon cloned frontend application which has been containerized and deployed on kubernetes(minikube)
+Project Overview
+
+    Complete DevOps pipeline from frontend code to Kubernetes deployment
+
+    Amazon frontend clone deployed on Minikube Kubernetes cluster
+
+    Demonstrates Docker containerization, Kubernetes orchestration, and local development workflow
+
+    
