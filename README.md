@@ -40,6 +40,8 @@ docker build -t yourusername/amazon-clone:latest .
 
 # Steps for Minikube deployment
 minikube start --driver=virtualbox (or docker if you prefer)
+
+
 // To Deploy pod: 
 kubectl create -f pod-definition.yml
 
